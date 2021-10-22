@@ -102,3 +102,35 @@ for (genre in unique(artists$genre)) {
 
 
 write.csv(song.list, file = "data/song.list.csv")
+
+# Going to write different genres into .txt files, maybe this'll be easier to do analysis with? 
+
+# Data
+song.list <- read_csv("data/song.list.csv") %>%
+  select(-c(1))
+
+
+# Filter based on genre 
+pop <- song.list %>%
+  filter(genre == "Pop")
+
+rap <- song.list %>%
+  filter(genre == "Hip Hop")
+
+rnb <- song.list %>%
+  filter(genre == "R&B")
+
+country <- song.list %>%
+  filter(genre == "Country")
+
+rock <- song.list %>%
+  filter(genre == "Rock")
+
+# Turning them into text files 
+pop <- pop[-1501, ]
+
+write.table(pop$lyrics, "data/pop.lyrics.txt")
+write.table(rap$lyrics, "data/rap.lyrics.txt")
+write.table(country$lyrics, "data/country.lyrics.txt")
+write.table(rnb$lyrics, "data/rnb.lyrics.txt")
+write.table(rock$lyrics, "data/rock.lyrics.txt")
