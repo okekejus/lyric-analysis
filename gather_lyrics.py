@@ -63,7 +63,7 @@ for artist in artists:
         lyrics.save_lyrics() 
  
 
-        
+ # Resulting download is a .json file. I prefer to edit these using R.     
         
         
         
