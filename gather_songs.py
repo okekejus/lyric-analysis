@@ -58,7 +58,7 @@ for artist in artists:
         lyrics = genius.search_artist(artist, max_songs = 150) 
         lyrics.save_lyrics() 
     except: 
-        print(["API timeout at ", artist]) # the API times out, so when it does, we want it to start over with the same artist it was on - preventing losses. 
+        print(["API timeout at ", artist]) 
         lyrics = genius.search_artist(artist, max_songs = 150) 
         lyrics.save_lyrics() 
  
