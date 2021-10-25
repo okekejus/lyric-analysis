@@ -71,3 +71,46 @@ Country music references alcohol the most! By quite a lot in comparison to the o
 ![image](https://user-images.githubusercontent.com/91495866/138735824-10bb6eff-74f1-4be6-8bb6-73cc6d681694.png)
 
 Hip Hop references marijuana the most, far more than other genres! 
+
+
+## Violence
+To capture mentions of violence, I gathered words related to aggression (as much as I could think of, present in the code) and filtered each genre for mentions. Hip Hop was once again first in this category, with Pop narrowly beating out Rock for second place. 
+
+![image](https://user-images.githubusercontent.com/91495866/138736512-b3ac33d7-aa83-4364-9c00-56b3da053d38.png)
+
+![image](https://user-images.githubusercontent.com/91495866/138736456-6c9fc4fa-95e9-4bca-ae21-f4f2e33bb24b.png)
+
+
+## Sentiment Analysis 
+
+Lastly, I thought it would be cool to add a sentiment score to see how the genres stacked up against each other. I expected Hip-Hop to be far in the negatives due to the quantity of violence/substance/swear words present. 
+
+![image](https://user-images.githubusercontent.com/91495866/138736884-85634702-081f-4570-81d8-c8bee14fb2ea.png)
+
+
+![image](https://user-images.githubusercontent.com/91495866/138736713-0e75c83c-7ff8-4b17-9792-5acc7a617676.png)
+
+As you can see, that is the case! In face, all genres are in the negatives, with the exception of R&B music, which is in the low positives (makes sense because they're talking about love so much). 
+
+
+I decided to do the same thing, but by artist to see if any were far more negative than others
+
+![image](https://user-images.githubusercontent.com/91495866/138736965-113ff48e-2532-42bb-be91-904550470d4f.png)
+
+### Most negative artists 
+1. Eminem 
+2. 2Pac
+3. Lil Wayne 
+4. DMX
+5. JAY-Z
+
+### Most positive artists 
+1. Whitney Houston
+2. Mary J. Blige
+3. Celine Dion
+4. Stevie Wonder 
+5. Janet Jackson
+
+
+
+
