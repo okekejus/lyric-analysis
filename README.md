@@ -45,10 +45,29 @@ For this category, I expected Hip Hop to be at the top, by a lot (it was). I was
 
 **43%** of rap music is swear words! R&B is in second place, with a shocking 36% difference. 
 
-![image](https://user-images.githubusercontent.com/91495866/138734587-c649fcda-6897-4c56-97ee-c0f4d1ec6e3e.png)
+![image](https://user-images.githubusercontent.com/91495866/138734851-d3bc4b4c-1916-435e-87d4-f6addcabeceb.png)
 
 I didn't bother looking through the most common swear words to figure out who would reference them the most - safe to say Hip Hop wins this round. 
 
 
 ## Substance References 
 
+I grouped "Substances" into 7 categories: Marijuana (weed), Alcohol, Heroin, Meth, Pills, Cocaine, Ecstasy (including LSD, shrooms, molly). Hip Hop was in first place in terms of substance mentions, but I was shocked to see what was in second place: 
+
+![image](https://user-images.githubusercontent.com/91495866/138735184-5dce147c-1aca-4032-8a81-2225d3412e01.png)
+
+Country music! I expected Pop/R&B to be in second, but apparently that isn't the case. Of all substances, Alcohol was the most commonly referenced, with Marijuana in 2nd place. 
+
+I decided to compare references to these two substances between groups: 
+
+### Alcohol 
+![image](https://user-images.githubusercontent.com/91495866/138735583-159425f9-a6ab-4a90-ac67-35039045ec4b.png)
+
+Country music references alcohol the most! By quite a lot in comparison to the other genres as well. Hip Hop is in second place with this one.
+
+
+### Marijuana 
+
+![image](https://user-images.githubusercontent.com/91495866/138735824-10bb6eff-74f1-4be6-8bb6-73cc6d681694.png)
+
+Hip Hop references marijuana the most, far more than other genres! 
