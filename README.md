@@ -13,3 +13,5 @@ When all the lyrics were downloaded and filtered, Hip Hop was the genre with the
 
 
 ![image](https://user-images.githubusercontent.com/91495866/138732316-2f4cc004-07d1-4b4f-9450-b8a247eda654.png)
+
+![image](https://user-images.githubusercontent.com/91495866/138732444-a2902f4a-7631-4d72-9c07-7b61dbbb754b.png)
