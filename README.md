@@ -25,8 +25,30 @@ When all the lyrics were downloaded and filtered, Hip Hop was the genre with the
 
 I thought it would be cool to see which genre made reference to love the most, so I did just that. By dividing the number of mentiones of the word "love" by the total words in each song, I was able to get percentage values. 
 
-![image](https://user-images.githubusercontent.com/91495866/138732953-5e8c701e-2682-404c-a7d0-feff8e1d5273.png)
+![image](https://user-images.githubusercontent.com/91495866/138733347-dca26725-dba4-4242-bb69-4a65ab924a91.png)
+
+![image](https://user-images.githubusercontent.com/91495866/138733234-6c1126ff-ed68-45f7-a4ed-8a382432232e.png)
 
 R&B makes the most references to love (duh), with Pop in second place. Hip Hop mentions it the least of all genres. 
 
+## Swear words 
+"swear words" were words in this list found within the lyrics:  "fuck", "shit", "bitch", "damn", "cunt", "slut", "whore", "ho", "piss", "bollocks" (for the British artists!), "dick", "cock". 
+
+First, I found the most common swear words per genre: 
+
+![image](https://user-images.githubusercontent.com/91495866/138734514-b06ffd16-a8e2-4fc4-b20a-1b87679f24ef.png)
+
+
+For this category, I expected Hip Hop to be at the top, by a lot (it was). I wasn't too sure what the rest of the rankings would look like for the other genres, and I was a little surprised by the results: 
+
+![image](https://user-images.githubusercontent.com/91495866/138734063-9ca7bd36-3086-4787-9a44-b940a1ac7ee7.png)
+
+**43%** of rap music is swear words! R&B is in second place, with a shocking 36% difference. 
+
+![image](https://user-images.githubusercontent.com/91495866/138734587-c649fcda-6897-4c56-97ee-c0f4d1ec6e3e.png)
+
+I didn't bother looking through the most common swear words to figure out who would reference them the most - safe to say Hip Hop wins this round. 
+
+
+## Substance References 
 
