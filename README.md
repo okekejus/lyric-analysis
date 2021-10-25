@@ -11,7 +11,22 @@ The objective is to do some text analysis in order to determine which genre make
 
 When all the lyrics were downloaded and filtered, Hip Hop was the genre with the most words, with over 20,000 in comparison to other genres: 
 
+![image](https://user-images.githubusercontent.com/91495866/138732444-a2902f4a-7631-4d72-9c07-7b61dbbb754b.png)
 
 ![image](https://user-images.githubusercontent.com/91495866/138732316-2f4cc004-07d1-4b4f-9450-b8a247eda654.png)
 
-![image](https://user-images.githubusercontent.com/91495866/138732444-a2902f4a-7631-4d72-9c07-7b61dbbb754b.png)
+
+## Top words per genre
+
+"Love" and "Yeah" were top words in all genres. 
+
+![image](https://user-images.githubusercontent.com/91495866/138732750-033f8b96-14e0-48f7-a802-8e7b47032d99.png)
+
+
+I thought it would be cool to see which genre made reference to love the most, so I did just that. By dividing the number of mentiones of the word "love" by the total words in each song, I was able to get percentage values. 
+
+![image](https://user-images.githubusercontent.com/91495866/138732953-5e8c701e-2682-404c-a7d0-feff8e1d5273.png)
+
+R&B makes the most references to love (duh), with Pop in second place. Hip Hop mentions it the least of all genres. 
+
+
