@@ -256,7 +256,7 @@ total.words <- total.words %>%
 
 remove(ecstasy.count)
 
-Mentions 
+# Mentions ---------------------------------------------------------------------------------------
 
 total.words %>%
   mutate(drug.percent = (drugs/n) * 100) %>%
