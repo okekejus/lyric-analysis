@@ -35,7 +35,7 @@ genius.verbose = False
 @delayed
 def get_lyrics(artist):
     try:
-        lyrics = genius.search_artist(artist, max_songs = 200)
+        lyrics = genius.search_artist(artist, max_songs = 150)
         lyrics.save_lyrics()
     except HTTPError as e:
         print(e.errno)    # status code
