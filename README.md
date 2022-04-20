@@ -1,10 +1,39 @@
-# Lyric Analysis
-Text analysis of songs from five genres (Pop, Hip-Hop, Country, Rock, R&amp;B) to see which references substances the most.
+# Table of Contents 
+
+- Background 
+- Objective 
+- Tools and Packages 
+- Data Collection & Processing
+- Data Visualization 
+- Results 
+- Future Work 
+- References 
+
+## Background 
+I read an article which claimed Country songs make the most reference to substances in music. I've personally always thought Hip-Hop would win this by a landslide, and decided to use my resources to conduct my own research! 
+
+## Objective
+Analysis of song lyrics from five genres (Pop, Hip-Hop, Country, Rock, R&B) to see which reference substances the most.
+
+## Tools and Packages 
+I used a combination of Python and R for this project. Python is generally better for API calls/Web scraping, so I chose to take advantage of this functionality. I prefer R for plotting graphs & data exploration, so I switched programs after successfully downloading the lyrics.
+
+R packages: 
+- tidyverse 
+- tidyjson
+- rjson
+- tidytext 
+- furrr
+- gsubfn 
+- plyr 
 
 
-I decided to do something different from numbers this time, and include some Python in the procedure. For this project, I used the genius API to download the songs for 10 different artists from 5 different genres. 
-
-The objective is to do some text analysis in order to determine which genre makes references to drugs/substance use the most. Data collection was done using Python, while lyric extraction and data visualization was done using R. The results are below if you're interested!
+Python modules: 
+- lyricsgenius 
+- pandas 
+- dask 
+- os 
+- json
 
 
 ## Total words per genre
