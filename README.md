@@ -19,24 +19,30 @@ Analysis of song lyrics from five genres (Pop, Hip-Hop, Country, Rock, R&B) to s
 I used a combination of Python and R for this project. Python is generally better for API calls/Web scraping, so I chose to take advantage of this functionality. I prefer R for plotting graphs & data exploration, so I switched programs after successfully downloading the lyrics.
 
 R packages: 
-- tidyverse 
-- tidyjson
-- rjson
-- tidytext 
-- furrr
-- gsubfn 
-- plyr 
+- tidyverse: Data manipulation & analysis 
+- tidyjson: Structuring .json data into tidy data frames 
+- rjson: Conversion of .json objects into R objects. 
+- tidytext: Editing text data using tidy data principles
+- furrr: Future mapping (parallel processing similar to purrr)
+- gsubfn: String manipulation
+- plyr: Split/Apply/Combine strategies for data
 
 
 Python modules: 
-- lyricsgenius 
-- pandas 
-- dask 
-- os 
-- json
+- lyricsgenius: Client for Genius API 
+- pandas: Data manipulation and analysis
+- dask: Parallel processing
+- os: Operating system interfaces
+- json: Working with json files
 
+## Data Collection 
+|Method|Notes|
+|------|-----|
+|test  |test |
 
-## Total words per genre
+## Results
+
+### Total words per genre
 
 When all the lyrics were downloaded and filtered, Hip Hop was the genre with the most words, with over 20,000 in comparison to other genres: 
 
@@ -45,7 +51,7 @@ When all the lyrics were downloaded and filtered, Hip Hop was the genre with the
 ![image](https://user-images.githubusercontent.com/91495866/138732316-2f4cc004-07d1-4b4f-9450-b8a247eda654.png)
 
 
-## Top words per genre
+### Top words per genre
 
 "Love" and "Yeah" were top words in all genres. 
 
@@ -60,7 +66,7 @@ I thought it would be cool to see which genre made reference to love the most, s
 
 R&B makes the most references to love (duh), with Pop in second place. Hip Hop mentions it the least of all genres. 
 
-## Swear words 
+### Swear words 
 "swear words" were words in this list found within the lyrics:  "fuck", "shit", "bitch", "damn", "cunt", "slut", "whore", "ho", "piss", "bollocks" (for the British artists!), "dick", "cock". 
 
 First, I found the most common swear words per genre: 
@@ -79,7 +85,7 @@ For this category, I expected Hip Hop to be at the top, by a lot (it was). I was
 I didn't bother looking through the most common swear words to figure out who would reference them the most - safe to say Hip Hop wins this round. 
 
 
-## Substance References 
+### Substance References 
 
 I grouped "Substances" into 7 categories: Marijuana (weed), Alcohol, Heroin, Meth, Pills, Cocaine, Ecstasy (including LSD, shrooms, molly). Hip Hop was in first place in terms of substance mentions, but I was shocked to see what was in second place: 
 
@@ -102,7 +108,7 @@ Country music references alcohol the most! By quite a lot in comparison to the o
 Hip Hop references marijuana the most, far more than other genres! 
 
 
-## Violence
+### Violence
 To capture mentions of violence, I gathered words related to aggression (as much as I could think of, present in the code) and filtered each genre for mentions. Hip Hop was once again first in this category, with Pop narrowly beating out Rock for second place. 
 
 ![image](https://user-images.githubusercontent.com/91495866/138736512-b3ac33d7-aa83-4364-9c00-56b3da053d38.png)
@@ -110,7 +116,7 @@ To capture mentions of violence, I gathered words related to aggression (as much
 ![image](https://user-images.githubusercontent.com/91495866/138736456-6c9fc4fa-95e9-4bca-ae21-f4f2e33bb24b.png)
 
 
-## Sentiment Analysis 
+### Sentiment Analysis 
 
 Lastly, I thought it would be cool to add a sentiment score to see how the genres stacked up against each other. I expected Hip-Hop to be far in the negatives due to the quantity of violence/substance/swear words present. 
 
@@ -126,14 +132,14 @@ I decided to do the same thing, but by artist to see if any were far more negati
 
 ![image](https://user-images.githubusercontent.com/91495866/138736965-113ff48e-2532-42bb-be91-904550470d4f.png)
 
-### Most negative artists 
+#### Most negative artists 
 1. Eminem 
 2. 2Pac
 3. Lil Wayne 
 4. DMX
 5. JAY-Z
 
-### Most positive artists 
+#### Most positive artists 
 1. Whitney Houston
 2. Mary J. Blige
 3. Celine Dion
