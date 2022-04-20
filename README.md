@@ -7,7 +7,6 @@
 - Data Visualization 
 - Results 
 - Future Work 
-- References 
 
 ## Background 
 I read an article which claimed Country songs make the most reference to substances in music. I've personally always thought Hip-Hop would win this by a landslide, and decided to use my resources to conduct my own research! 
@@ -35,10 +34,18 @@ Python modules:
 - os: Operating system interfaces
 - json: Working with json files
 
-## Data Collection 
-|Method|Notes|
-|------|-----|
-|test  |test |
+## Data Collection & Processing
+|Method        |Notes                                     |
+|--------------|------------------------------------------|
+|search_artist |150 * 50 songs downloaded in ~ 20 minutes |
+|save_lyrics   | Downloaded .json files to drive          |
+|dask.compute  | Multiprocessing for search_artist        |
+
+**Data Cleaning**
+- Change all lyrics to lower case 
+- Tokenization of words
+- Changing plural mentions to singular - ex. "girls" to "girl" 
+
 
 ## Results
 
@@ -146,6 +153,8 @@ I decided to do the same thing, but by artist to see if any were far more negati
 4. Stevie Wonder 
 5. Janet Jackson
 
+## Future Work
+A larger collection of lyrics to analyze would be a major benefit as this would allow analysis of the same metrics accross more genres/languages, allowing for more accurate findings. 
 
 
 
