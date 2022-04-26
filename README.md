@@ -132,7 +132,7 @@ Lastly, I thought it would be cool to add a sentiment score to see how the genre
 
 ![image](https://user-images.githubusercontent.com/91495866/138736713-0e75c83c-7ff8-4b17-9792-5acc7a617676.png)
 
-As you can see, that is the case! In face, all genres are in the negatives, with the exception of R&B music, which is in the low positives (makes sense because they're talking about love so much). 
+As you can see, that is the case! In fact, all genres are in the negatives, with the exception of R&B music, which is in the low positives (makes sense because they're talking about love so much). 
 
 
 I decided to do the same thing, but by artist to see if any were far more negative than others
